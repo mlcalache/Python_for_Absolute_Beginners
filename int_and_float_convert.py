@@ -1,0 +1,11 @@
+user_int = int(input("Please enter an integer.\n"))
+print(user_int)
+print(type(user_int))
+
+# error_1 = int("Numb3rs 4nd $ymbols")
+# error_2 = int("1.45")
+interesting_1 = int(11.9)
+print(interesting_1)
+# error_3 = int("10.1 + 9.3")
+interesting_2 = int(10.1 + 9.3)
+print(interesting_2)
