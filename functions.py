@@ -34,7 +34,7 @@ def function_with_default_values(num1=1, num2=2):
 
 
 function_with_default_values()
-function_with_default_values(2,3)
+function_with_default_values(2, 3)
 
 
 def function_with_return(num1=1, num2=2):
@@ -42,5 +42,34 @@ def function_with_return(num1=1, num2=2):
     return num1 + num2
 
 
-result = function_with_return(3,4)
+result = function_with_return(3, 4)
 print(result)
+
+
+def hello_world_printer():
+    print("hello world")
+
+
+hello_world_printer()
+
+
+def name_printer(param1):
+    print(param1)
+
+
+name = input("Please enter your name.\n")
+name_printer(name)
+
+# The formula to find the volume of a rectangular prism is
+# V = l * w * h where l, w, and h are length, width, and height, respectively.
+length = int(input("Please enter the meter length."))
+width = int(input("Please enter the meter width."))
+height = int(input("Please enter the meter height."))
+
+
+def calculate_volume_rectangle(l, w, h):
+    return l * w * h
+
+
+volume = calculate_volume_rectangle(length, width, height)
+print("The volume of the rectangular prism is " + str(volume) + " cubic meters")
