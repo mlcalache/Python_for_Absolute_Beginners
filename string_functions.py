@@ -56,7 +56,7 @@ print("One, Two, Three, Four".split())  # splits on space
 print("One, Two, Three, Four".split(", "))
 print("One|Two|Three|Four".split("|"))
 
-# Lenght
+# Length
 print(len(var1))
 
 # Exercise
