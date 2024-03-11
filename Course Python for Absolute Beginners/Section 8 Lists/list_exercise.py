@@ -17,3 +17,19 @@ var_6 = list_3[1:3]
 print(var_6)
 var_7 = list_3[:2]
 print(var_7)
+
+list_4 = ["First",
+          "Second",
+          "Third",
+          "and so on"]
+print(list_4)
+
+aux_1 = 2 + \
+        3 + \
+        4
+print(aux_1)
+
+aux_2 = "The empire \
+strikes \
+back"
+print(aux_2)
